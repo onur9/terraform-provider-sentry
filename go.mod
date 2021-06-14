@@ -2,6 +2,8 @@ module github.com/jianyuan/terraform-provider-sentry
 
 replace git.apache.org/thrift.git => github.com/apache/thrift v0.0.0-20180902110319-2566ecd5d999 // indirect
 
+replace github.com/jianyuan/go-sentry => github.com/labd/go-sentry v1.2.1-0.20210415232910-a2da3e2368e0
+
 go 1.14
 
 require (
