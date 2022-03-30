@@ -2,8 +2,6 @@ module github.com/jianyuan/terraform-provider-sentry
 
 replace git.apache.org/thrift.git => github.com/apache/thrift v0.0.0-20180902110319-2566ecd5d999 // indirect
 
-replace github.com/jianyuan/go-sentry => github.com/labd/go-sentry v1.2.1-0.20210415232910-a2da3e2368e0
-
 go 1.14
 
 require (
@@ -12,7 +10,6 @@ require (
 	github.com/agext/levenshtein v1.2.3 // indirect
 	github.com/apparentlymart/go-cidr v1.1.0 // indirect
 	github.com/aws/aws-sdk-go v1.35.13 // indirect
-	github.com/dghubble/sling v1.3.0 // indirect
 	github.com/fatih/color v1.9.0 // indirect
 	github.com/go-git/go-git/v5 v5.2.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
@@ -25,7 +22,7 @@ require (
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.0.4
 	github.com/hashicorp/yamux v0.0.0-20200609203250-aecfd211c9ce // indirect
 	github.com/imdario/mergo v0.3.11 // indirect
-	github.com/jianyuan/go-sentry v1.2.1-0.20201022193837-4bc7bd117d9d
+	github.com/jianyuan/go-sentry v1.2.1-0.20210621222913-1234f239dab3
 	github.com/mattn/go-colorable v0.1.8 // indirect
 	github.com/mitchellh/go-testing-interface v1.14.1 // indirect
 	github.com/mitchellh/go-wordwrap v1.0.1 // indirect
